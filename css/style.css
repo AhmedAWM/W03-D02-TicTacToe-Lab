@@ -1,0 +1,44 @@
+body {
+     /* background-color: gainsboro; */
+    /* Use a system font, if none are available use an available sans-sarif */
+    font-family: system-ui, sans-serif;
+    background: #000;
+    color: azure;
+    overflow: hidden;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 325px;
+    margin: 0 auto;
+  }
+  
+  .sqr {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border: 1px solid #457B9D;
+    border-radius: 8px;
+    font-size: 64px;
+    text-align: center; /* Center the input horizontally */
+    align-content: center; /* Center the input vertically */
+  }
+
+  .sqr:hover {
+    background-color: #b6d4e7;
+  }
+
+  .reset-button-section {
+    width: 128px;
+    margin: 0 auto;
+  }
+
+  .reset-button {
+    margin: 24px 0;
+    width: 128px;
+  }
